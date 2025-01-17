@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import GeneratePostButton from "./components/GeneratePostButton";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
             Get started by editing <code>app/page.js</code>.
           </li>
           <li>Save and see your changes instantly.</li>
+          <GeneratePostButton/>
         </ol>
 
         <div className={styles.ctas}>
